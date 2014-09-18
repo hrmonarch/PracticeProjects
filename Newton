@@ -3,7 +3,7 @@ For a hard-coded function this script will calculate the approximate
 roots as per Newton's Method algorithm.  
 
 For new functions to be calculated this will require changes and 
-conciderations to be made to the script.
+considerations to be made to the script.
 
 
 Note:  This script is a modified version of the same script 
@@ -37,13 +37,13 @@ def main(argv):
 
 # boilerplate
 ''' 
-This script requires two arguments to be be ran by itself.
-The first is our initial 'x' value that is effectivly a guess.  Made it a good one and 
+This script requires two arguments to be be run by itself.
+The first is our initial 'x' value that is effectively a guess.  Make it a good one and 
 The algorithm will take much less time.
 
-The second value is the number of itterations for the method to take to find it's 
+The second value is the number of iterations for the method to take to find its 
 approximations.  This method runs in polynomial time, so try to keep the number low.  
-That being said, too few itterations may prove to give you poor results.  
+That being said, too few iterations may prove to give you poor results.  
 '''
 if __name__ == "__main__":
     if (len(sys.argv) != 3):
